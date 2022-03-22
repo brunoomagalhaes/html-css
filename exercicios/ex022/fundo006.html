@@ -8,14 +8,17 @@
     <title>Document</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             border: 1px solid darkblue;
-            border-radius: 15px;
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+            /*Shorthand - background
+            color>image>position>repeat>[size]>attachment*/
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
         }
         
         main {
@@ -23,6 +26,8 @@
             width: 400px;
             padding: 10px;
             margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
         }
     </style>
 </head>
